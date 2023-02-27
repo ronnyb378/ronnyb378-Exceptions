@@ -20,7 +20,8 @@ public class Lab {
      *
      * Check out this guide on throwing exceptions: https://rollbar.com/guides/java/how-to-throw-exceptions-in-java/#
      */
-    public void mustThrow() {
-
-    }
+    public void mustThrow() throws Exception {
+        // Here we throw a generic Exception object
+        throw new Exception("This is a thrown exception.");
+        }
 }
